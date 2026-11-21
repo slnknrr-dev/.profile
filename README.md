@@ -10,6 +10,7 @@ I explore programming languages and runtime environments as complementary tools 
 
 The underlying approach is to distribute responsibilities according to execution efficiency, development velocity and long-term maintenance costs. Components may operate independently or coexist, with each runtime selected according to the requirements and economics of its role.
 
+#### design
 ```mermaid
 
 flowchart TD
@@ -76,3 +77,26 @@ flowchart TD
     CLIENT -.->|"C not required"| JS
 ```
 
+#### research
+
+```mermaid
+flowchart TD
+    A(["Engineering Task"]) --> B["Requirements & Constraints"]
+    B --> C["Workload & Execution Model"]
+    C --> D["Define Evaluation Criteria"]
+
+    D --> E["Identify Candidate Languages"]
+    E --> F["Study Language & Runtime Capabilities"]
+    F --> G["Design Comparable Implementations"]
+    G --> H["Prototype Critical Components"]
+    H --> I["Benchmark & Evaluate"]
+
+    I --> J{"Requirements Satisfied?"}
+    J -->|"No"| K["Reconsider Candidates or Design"]
+    K --> E
+
+    J -->|"Yes"| L["Compare Overall Engineering Cost"]
+    L --> M["Select Language & Architecture Boundaries"]
+    M --> N["Implementation & Integration"]
+    N --> O(["Maintenance & Evolution"])
+```
