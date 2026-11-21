@@ -1,14 +1,14 @@
 ### Systems Engineering Research
 
-I explore programming languages and runtime environments through a division of engineering responsibilities:
+I explore programming languages and runtime environments as complementary tools for designing efficient, maintainable and scalable systems.
 
-- **Zig** — general-purpose native software, zero-overhead abstractions and resource-efficient execution.
-- **C** — reverse proxies, low-level networking and performance-critical components.
+- **C** — network infrastructure, API-aware reverse proxies, traffic filtering and performance-critical processing.
+- **Zig** — safe, resource-efficient native components and low-overhead abstractions where native implementation is advantageous.
 - **Go** — standalone engineering tools, utilities and development infrastructure.
-- **Node.js / Bun** — backend development, application logic and runtime orchestration.
-- **Java** — long-lived storage contracts, stable interfaces and EAFP-first, non-defensive API design.
+- **Node.js / Bun** — flexible backend development, rapid prototyping, frequently evolving application logic and API abstraction.
+- **Java** — long-lived services, complex infrastructure, scalable APIs and strongly governed contracts designed for consistency and maintainability.
 
-The goal is to understand where each language provides the strongest engineering advantages and how their responsibilities can coexist within a cohesive software architecture.
+The underlying approach is to distribute responsibilities according to execution efficiency, development velocity and long-term maintenance costs. Components may operate independently or coexist, with each runtime selected according to the requirements and economics of its role.
 
 ```mermaid
 
